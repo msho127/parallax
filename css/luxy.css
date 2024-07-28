@@ -1,0 +1,80 @@
+.mainimg {
+  width: 800px;
+  height: 540px;
+  margin: 200px 200px 0;
+}
+
+.Mountain1{
+  width: 800px;
+  height: 540px;
+  position: absolute;
+  z-index: 6;
+  background-image: url(../img/pa/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Mountain2{
+  width: 800px;
+  height: 540px;
+  position: absolute;
+  z-index: 5;
+  background-image: url(../img/pa/2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Mountain3{
+  width: 800px;
+  height: 540px;
+  position: absolute;
+  z-index: 4;
+  background-image: url(../img/pa/3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Mountain4{
+  width: 800px;
+  height: 540px;
+  position: absolute;
+  z-index: 3;
+  background-image: url(../img/pa/4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Mountain5{
+  width: 800px;
+  height: 540px;
+  position: absolute;
+  z-index: 2;
+  background-image: url(../img/pa/5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Mountain6{
+  width: 800px;
+  height: 540px;
+  position: absolute;
+  z-index: 1;
+  background-image: url(../img/pa/6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.fuzi{
+  width: 800px;
+  height: 540px;
+  position: absolute;
+  z-index: 10;
+  margin: 0 200px 0;
+  background-image: url(../img/fuzi.jpg);
+}
+
+p{
+  padding: 100px;
+  
+}

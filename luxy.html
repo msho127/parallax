@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/luxy.css">
+    <script src="js/luxy.js" charset="utf-8"></script>
+    <script charset="utf-8">
+      window.onload = function() {
+        luxy.init();
+
+        $(window).scroll(function(){
+          var nowPosi = $(window).scrollTop();
+
+          if(nowPosi > 150){
+            $("header img").fadeOut(1000);
+          }else{
+            $("header img").fadeIn(1000);
+          }
+        });
+
+      }
+      </script>
+  </head>
+  <body>
+    <div id="luxy">
+        <header>
+          <div class="mainimg">
+            <div class="Mountain1 luxy-el" data-speed-y="1"></div>
+            <div class="Mountain2 luxy-el" data-speed-y="10"></div>
+            <div class="Mountain3 luxy-el" data-speed-y="10"></div>
+            <div class="Mountain4 luxy-el" data-speed-y="22"></div>
+            <div class="Mountain5 luxy-el" data-speed-y="20"></div>
+            <div class="Mountain6 luxy-el" data-speed-y="23"></div>
+          </div>
+        </header>
+        <div class="fuzi"></div>
+        <p>text</p>
+        <p>text</p>
+        <p>text</p>
+    </div>
+  </body>
+</html>
